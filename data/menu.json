@@ -1,0 +1,44 @@
+{
+  "appetizers": [
+    {
+      "name": "Guacamole Tradicional",
+      "description": "Fresh avocados, tomatoes, onions, cilantro, and lime juice",
+      "price": 12.99,
+      "image": "/images/guacamole.jpg"
+    },
+    {
+      "name": "Queso Fundido",
+      "description": "Melted Oaxaca cheese with chorizo and roasted peppers",
+      "price": 14.99,
+      "image": "/images/queso-fundido.jpg"
+    }
+  ],
+  "mainCourses": [
+    {
+      "name": "Mole Poblano",
+      "description": "Tender chicken in a rich, complex sauce with chocolate and chili",
+      "price": 24.99,
+      "image": "/images/mole-poblano.jpg"
+    },
+    {
+      "name": "Cochinita Pibil",
+      "description": "Slow-roasted pork marinated in achiote and citrus",
+      "price": 22.99,
+      "image": "/images/cochinita-pibil.jpg"
+    }
+  ],
+  "desserts": [
+    {
+      "name": "Tres Leches Cake",
+      "description": "Sponge cake soaked in three types of milk, topped with whipped cream",
+      "price": 9.99,
+      "image": "/images/tres-leches.jpg"
+    },
+    {
+      "name": "Churros con Chocolate",
+      "description": "Crispy cinnamon-sugar coated churros with rich chocolate dipping sauce",
+      "price": 8.99,
+      "image": "/images/churros.jpg"
+    }
+  ]
+}

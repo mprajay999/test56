@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1A1A1A;
+  --color-secondary: #C0A363;
+  --color-accent: #E4B769;
+  --color-background: #F5F5F5;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #A0A0A0;
+  --color-overlay: rgba(0, 0, 0, 0.6);
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+}
+
+.heading {
+  @apply font-serif font-semibold text-5xl tracking-wider leading-tight;
+}
+
+.subheading {
+  @apply font-serif font-medium text-3xl tracking-wide leading-relaxed;
+}
+
+.body-text {
+  @apply font-sans font-normal text-lg leading-relaxed;
+}
+
+.menu-item {
+  @apply font-sans font-medium text-xl leading-normal;
+}
+
+.menu-description {
+  @apply font-sans font-light text-base leading-normal;
+}
